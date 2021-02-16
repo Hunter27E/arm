@@ -1,7 +1,7 @@
 header {
 	display: grid;
 	grid-template-columns: 33vw 33vw 33vw;
-	grid-template-rows: auto;
+	grid-template-rows: 10vh;
 	-background-color: red;
 }
 
@@ -22,10 +22,11 @@ nav {
 main {
 	display: grid;
 	grid-template-columns: 99vw;
-	grid-template-rows: auto 90vh auto;
+	grid-template-rows: 7vh 75vh 8vh;
 	background-image: url('../images/giraffe.dms');
 	background-size: cover;
 	background-color: green;
+	height: 90vh;
 }
 
 section {
@@ -50,7 +51,7 @@ section {
 	background-color: rgba(255, 255, 255, 0.5);
 	position: absolute;
 	bottom: 0;
-	margin-bottom: 30px;
+	margin-bottom: 60px;
 	margin-left: 30px;
 }
 
