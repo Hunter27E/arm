@@ -2,7 +2,6 @@ header {
 	display: grid;
 	grid-template-columns: 33vw 33vw 33vw;
 	grid-template-rows: 10vh;
-	-background-color: red;
 }
 
 h1 {
@@ -23,7 +22,6 @@ nav button {
 	height: 30px;
 	border: none;
 	background-color: white;
-	-background-color: red;
 }
 
 main {
@@ -48,7 +46,6 @@ section {
 
 #ar {
 	grid-row: 2 / 3;
-	-background-color: green;
 }
 
 #ar div {
