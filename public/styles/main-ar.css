@@ -19,6 +19,13 @@ nav {
 	justify-content: flex-end;
 }
 
+nav button {
+	height: 30px;
+	border: none;
+	background-color: white;
+	-background-color: red;
+}
+
 main {
 	display: grid;
 	grid-template-columns: 99vw;
@@ -69,11 +76,4 @@ section {
 	border-color: black;
 	margin: 0 5px;
 	text-align: center;
-}
-
-nav button {
-	height: 30px;
-	border: none;
-	background-color: white;
-	-background-color: red;
 }
