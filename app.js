@@ -10,6 +10,7 @@ const quiz = require('./routes/quiz');
 const tutorial = require('./routes/tutorial');
 const blank = require('./routes/blank');
 
+// create app and set port
 const port = process.env.PORT || 3000;
 const app = express();
 
@@ -25,8 +26,8 @@ app.engine(
 		defaultLayout: 'index',
 	})
 );
-app.use(express.favicon());
-app.use(express.logger('dev'));
+// app.use(express.favicon());
+// app.use(express.logger('dev'));
 app.use(express.json());
 app.use(express.urlencoded());
 /* app.use(express.methodOverride());
