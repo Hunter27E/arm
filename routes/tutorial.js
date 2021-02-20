@@ -1,7 +1,8 @@
 // GET ARM tutorial page
 
 exports.view = function (req, res) {
-	let info = {};
-	info.layout = 'tutorial';
-	res.render('tutorial', info);
+	// data to pass to template
+	let data = {};
+	data.layout = 'tutorial';
+	res.render('tutorial', data);
 };

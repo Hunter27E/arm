@@ -26,10 +26,10 @@ app.engine(
 		defaultLayout: 'index',
 	})
 );
-// app.use(express.favicon());
-// app.use(express.logger('dev'));
+/* app.use(express.favicon());
+app.use(express.logger('dev')); */
 app.use(express.json());
-app.use(express.urlencoded());
+app.use(express.urlencoded({ extended: true }));
 /* app.use(express.methodOverride());
 app.use(express.cookieParser('secret key'));
 app.use(express.session());
