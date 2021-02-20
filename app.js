@@ -1,6 +1,6 @@
 // import server basics
 const express = require('express');
-const handlebars = require('express3-handlebars');
+const handlebars = require('express-handlebars');
 const path = require('path');
 const http = require('http');
 
@@ -15,9 +15,16 @@ const app = express();
 
 // create environment
 app.set('port', port);
-app.set('views', path.join(__dirname, 'views'));
-app.engine('handlebars', handlebars());
-app.set('view engine', 'handlebars');
+app.set('views', path.join(__dirname, 'views/layouts'));
+app.set('view engine', 'hbs');
+app.engine(
+	'hbs',
+	handlebars({
+		layoutsDir: __dirname + '/views/layouts',
+		extname: 'hbs',
+		defaultLayout: 'index',
+	})
+);
 app.use(express.favicon());
 app.use(express.logger('dev'));
 app.use(express.json());

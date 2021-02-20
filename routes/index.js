@@ -1,5 +1,7 @@
 // GET ARM home page
 
 exports.view = function (req, res) {
-	res.render('index', {});
+	let info = {};
+	info.layout = 'index';
+	res.render('index', info);
 };
