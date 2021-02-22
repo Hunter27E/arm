@@ -1,0 +1,21 @@
+{
+	"name": "armuseum",
+	"version": "0.0.1",
+	"author": "Hunter, Jack, Theresa",
+	"respository": {
+		"type": "git",
+		"url": "https://github.com/Hunter27E/armuseum"
+	},
+	"license": "",
+	"private": false,
+	"scripts": {
+		"start": "node app.js"
+	},
+	"dependencies": {
+		"express": "^4.17.1",
+		"express-handlebars": "^5.2.1"
+	},
+	"engines": {
+		"node": "^15.5.0"
+	}
+}
