@@ -21,11 +21,11 @@
         </header>
         <div class="container">
             {{!-- TODO: Figure out how to go to a different index depending on what question the user is on --}}
-            <h1 class="question">{{questions.1.question}}</h1>
+            <h1 class="question">{{question}}</h1>
             <!-- creates the list of vertical buttons -->
             <!-- https://getbootstrap.com/docs/4.0/components/list-group/ -->
             <ul class="list-group">
-                    {{#each questions.[1].answers}}
+                    {{#each answers}}
                         <!-- add 'active' to set the clicked button -->
                         <!-- https://getbootstrap.com/docs/4.0/components/buttons/ -->
                         {{!-- TODO: should probably not show whether it is correct or not in html --}}
