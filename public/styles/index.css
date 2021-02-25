@@ -4,6 +4,11 @@
 	--primary: #333;
 }
 
+.Complete {
+	color: black;
+	margin-top: 5px
+}
+
 body {
 	width: 100vw;
 	height: 100vh;
@@ -16,7 +21,7 @@ header {
 	grid-template-columns: 33vw 34vw 33vw;
 	grid-template-rows: 10vh;
 	width: 100vw;
-	-font-family: Lobster;
+	font-family: Lobster;
 }
 
 h1 {
