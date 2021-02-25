@@ -7,6 +7,7 @@ const http = require('http');
 // import modules
 const index = require('./routes/index');
 const quiz = require('./routes/quiz');
+const login = require('./routes/login');
 const tutorial = require('./routes/tutorial');
 const blank = require('./routes/blank');
 const incorrect = require('./routes/incorrect');
@@ -45,6 +46,7 @@ app.get('/quiz', quiz.view);
 app.get('/tutorial', tutorial.view);
 app.get('/blank', blank.view);
 app.get('/incorrect', incorrect.view);
+app.get('/login', login.view);
 app.get('/correct', correct.view);
 app.get('/complete', complete.view);
 
