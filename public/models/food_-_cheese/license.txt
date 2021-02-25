@@ -1,0 +1,11 @@
+Model Information:
+* title:	Food - Cheese
+* source:	https://sketchfab.com/3d-models/food-cheese-1037c59cf3de4cbcaf1a6da3cf380bd0
+* author:	Wen Yeh (https://sketchfab.com/wenyeh1110)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Food - Cheese" (https://sketchfab.com/3d-models/food-cheese-1037c59cf3de4cbcaf1a6da3cf380bd0) by Wen Yeh (https://sketchfab.com/wenyeh1110) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
