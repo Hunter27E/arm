@@ -16,7 +16,7 @@ header {
 	grid-template-columns: 33vw 34vw 33vw;
 	grid-template-rows: 10vh;
 	width: 100vw;
-	font-family: Lobster;
+	-font-family: Lobster;
 }
 
 h1 {
@@ -70,7 +70,7 @@ main section:nth-child(2) {
 	color: var(--primary);
 	background-color: white;
 	font-size: 14px;
-	font-family: Lobster;
+	-font-family: Lobster;
 }
 
 iframe {
@@ -115,7 +115,7 @@ footer button {
 	border-style: solid;
 	border-color: var(--primary);
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-	font-family: Lobster;
+	-font-family: Lobster;
 	margin-left: 5px;
 	margin-right: 5px;
 }
