@@ -9,6 +9,8 @@ const index = require('./routes/index');
 const quiz = require('./routes/quiz');
 const tutorial = require('./routes/tutorial');
 const blank = require('./routes/blank');
+const incorrect = require('./routes/incorrect');
+const correct = require('./routes/correct');
 
 // create app and set port
 const port = process.env.PORT || 3000;
@@ -41,6 +43,8 @@ app.get('/', index.view);
 app.get('/quiz', quiz.view);
 app.get('/tutorial', tutorial.view);
 app.get('/blank', blank.view);
+app.get('/incorrect', incorrect.view);
+app.get('/correct', incorrect.view);
 
 // create server and listen on port
 http.createServer(app).listen(app.get('port'), function () {
