@@ -2,14 +2,14 @@
     "exhibit": "giraffe",
     "questions": [
         {
-            "question": "How do giraffes sleep?",
+            "question": "How much do fully grown male giraffes weigh?",
             "answers": [
-                {"answer": "lying down", "is_correct": false},
-                {"answer": "standing up", "is_correct": true},
-                {"answer": "for a long time", "is_correct": false},
-                {"answer": "during the day", "is_correct": false}
+                {"answer": "1500 pounds", "is_correct": false},
+                {"answer": "3000 pounds", "is_correct": true},
+                {"answer": "750 pounds", "is_correct": false},
+                {"answer": "3750 pounds", "is_correct": false}
             ],
-            "correct-answer": "standing up"
+            "correct-answer": "3000 pounds"
         },
         {
             "question": "What is the fastest speed a giraffe can run?",
@@ -18,6 +18,24 @@
                 {"answer": "37 mph", "is_correct": true},
                 {"answer": "47 mph", "is_correct": false},
                 {"answer": "57 mph", "is_correct": false}
+            ]
+        },
+        {
+            "question": "About how long do giraffes live?",
+            "answers": [
+                {"answer": "7 years", "is_correct": false},
+                {"answer": "16 years", "is_correct": false},
+                {"answer": "26 years", "is_correct": true},
+                {"answer": "23 years", "is_correct": false}
+            ]
+        },
+        {
+            "question": "What is a baby giraffe called",
+            "answers": [
+                {"answer": "Calf", "is_correct": true},
+                {"answer": "Colt", "is_correct": false},
+                {"answer": "Foal", "is_correct": false},
+                {"answer": "Fawn", "is_correct": false}
             ]
         }
     ]

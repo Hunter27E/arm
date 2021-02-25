@@ -11,26 +11,26 @@ $(document).ready(function() {
  * Function that is called when the document is ready.
  */
 function initializePage() {
-	$('#false.btn.btn-secondary').click(clickedIncorrectButton);
-	$('#true.btn.btn-secondary').click(clickedCorrectButton);
+	$('#next').click(clickedNext);
 }
 
 
 
-function clickedIncorrectButton(e) {
+function clickedNext(e) {
     e.preventDefault();
-    const questionID = getUrlVars();
-	  const question_number = parseInt(questionID["id"]);
-    location.href = "/incorrect?id=" + question_number;
+    const next_question_id = parseInt(getUrlVars()["id"]) + 1;
+
+    // TODO: Hard coded number of questions to be 4, should be dynamic
+    if(next_question_id > 3) {
+        location.href="/complete"
+        console.log("complete")
+    }
+    else {
+        location.href = "/quiz?id=" + next_question_id;
+    }
 }
 
-function clickedCorrectButton(e) {
-    e.preventDefault();
-    const questionID = getUrlVars();
-	  const question_number = parseInt(questionID["id"]);
-    location.href = "/correct?id=" + question_number;
-}
-
+// TODO fix
 // Read a page's GET URL variables and return them as an associative array.
 // https://stackoverflow.com/questions/4656843/get-querystring-from-url-using-jquery
 function getUrlVars()
