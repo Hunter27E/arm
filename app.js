@@ -27,7 +27,7 @@ app.engine(
 	handlebars({
 		layoutsDir: __dirname + '/views/layouts',
 		extname: 'hbs',
-		defaultLayout: 'index',
+		defaultLayout: 'login',
 	})
 );
 /* app.use(express.favicon());
@@ -41,7 +41,8 @@ app.use(app.router()); */
 app.use(express.static(path.join(__dirname, 'public')));
 
 // routes
-app.get('/', index.view);
+app.get('/', login.view);
+app.get('/index', index.view);
 app.get('/quiz', quiz.view);
 app.get('/tutorial', tutorial.view);
 app.get('/blank', blank.view);
