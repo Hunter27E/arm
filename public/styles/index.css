@@ -1,14 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+
+:root {
+	--primary: #333;
+}
+
+body {
+	width: 100vw;
+	height: 100vh;
+	margin: 0;
+}
+
 header {
+	background-color: var(--primary);
 	display: grid;
-	grid-template-columns: 33vw 33vw 33vw;
+	grid-template-columns: 33vw 34vw 33vw;
 	grid-template-rows: 10vh;
+	width: 100vw;
+	font-family: Lobster;
 }
 
 h1 {
+	font-size: 24px;
+	color: white;
 	grid-column: 2 / 3;
 	grid-row: 1 / 2;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	text-align: center;
-	font-size: 24px;
 }
 
 nav {
@@ -16,61 +35,93 @@ nav {
 	grid-row: 1 / 2;
 	display: flex;
 	justify-content: flex-end;
+	align-items: center;
 }
 
 nav button {
 	height: 30px;
 	border: none;
+	border-radius: 7px;
 	background-color: white;
+	margin-right: 5px;
 }
 
 main {
-	display: grid;
-	grid-template-columns: 99vw;
-	grid-template-rows: 5vh 75vh 10vh;
-	background-image: url('../images/giraffe.jpeg');
-	background-size: cover;
-	background-color: green;
-	height: 90vh;
+	height: 83vh;
+	width: 100vw;
 }
 
-section {
-	grid-column: 1 / 2;
-}
-
-#joinGame {
-	grid-row: 1 / 2;
+main section:first-child {
 	display: flex;
 	justify-content: flex-end;
+	align-items: center;
+	height: 5vh;
+	width: 100vw;
 }
 
-#ar {
-	grid-row: 2 / 3;
+main section:nth-child(2) {
+	width: 100vw;
 }
 
-#ar div {
-	margin: 0 auto; /* center div in section */
-	width: 200px;
-	height: 200px;
-	background-color: rgba(255, 255, 255, 0.5);
+#join {
+	border-style: solid;
+	border-radius: 3px;
+	border-color: var(--primary);
+	color: var(--primary);
+	background-color: white;
+	font-size: 14px;
+	font-family: Lobster;
+}
+
+iframe {
+	height: 78vh;
+	width: 100vw;
 	position: absolute;
-	bottom: 0;
-	margin-bottom: 80px;
-	margin-left: 30px;
+	z-index: 0;
 }
 
-#arSwitcher {
-	grid-row: 3 / 4;
+#info {
+	position: absolute;
+	z-index: 1;
+	border-style: solid;
+	border-color: #ccc;
+	border-radius: 12px;
+	background-color: #ddd;
+	height: auto;
+	padding: 10px;
+	width: 150px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	margin-top: 25px;
+	margin-left: 15px;
+}
+
+footer {
+	height: 7vh;
 	overflow: auto;
 	white-space: nowrap;
+	display: flex;
+	align-items: center;
+	width: 100vw;
 }
 
-#arSwitcher button {
-	width: 50px;
-	height: 50px;
-	background-color: rgba(150, 150, 150, 0.5);
-	border-radius: 50%;
-	border-color: black;
-	margin: 0 5px;
-	text-align: center;
+footer button {
+	border: none;
+	background-color: white;
+	color: var(--primary);
+	font-size: 14px;
+	border-radius: 12px;
+	border-style: solid;
+	border-color: var(--primary);
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	font-family: Lobster;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+button:hover {
+	background-color: var(--primary) !important;
+	color: white !important;
+	/* !important is to override #join properties */
 }
