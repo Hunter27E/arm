@@ -1,0 +1,24 @@
+{
+    "exhibit": "giraffe",
+    "questions": [
+        {
+            "question": "How do giraffes sleep?",
+            "answers": [
+                {"answer": "lying down", "is_correct": false},
+                {"answer": "standing up", "is_correct": true},
+                {"answer": "for a long time", "is_correct": false},
+                {"answer": "during the day", "is_correct": false}
+            ],
+            "correct-answer": "standing up"
+        },
+        {
+            "question": "What is the fastest speed a giraffe can run?",
+            "answers": [
+                {"answer": "27 mph", "is_correct": false},
+                {"answer": "37 mph", "is_correct": true},
+                {"answer": "47 mph", "is_correct": false},
+                {"answer": "57 mph", "is_correct": false}
+            ]
+        }
+    ]
+}

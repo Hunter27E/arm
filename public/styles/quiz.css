@@ -1,0 +1,8 @@
+#countdown {
+    justify-content: center;
+    align-content: center;
+    width:300px;
+    height:300px;
+    display: flex;
+    margin-top: 5px;
+}
