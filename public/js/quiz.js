@@ -20,14 +20,14 @@ function initializePage() {
 function clickedIncorrectButton(e) {
     e.preventDefault();
     const questionID = getUrlVars();
-	const question_number = parseInt(questionID["id"]);
+	  const question_number = parseInt(questionID["id"]);
     location.href = "/incorrect?id=" + question_number;
 }
 
 function clickedCorrectButton(e) {
     e.preventDefault();
     const questionID = getUrlVars();
-	const question_number = parseInt(questionID["id"]);
+	  const question_number = parseInt(questionID["id"]);
     location.href = "/correct?id=" + question_number;
 }
 

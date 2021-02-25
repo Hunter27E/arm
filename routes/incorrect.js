@@ -10,6 +10,5 @@ exports.view = function (req, res) {
 	
 	data.layout = 'incorrect';
 	console.log(data);
-	
 	res.render('incorrect', data);
 };

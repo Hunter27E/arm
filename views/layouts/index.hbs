@@ -14,6 +14,7 @@
 			rel="stylesheet"
 			href="https://fonts.googleapis.com/icon?family=Material+Icons"
 		/>
+		<script src="/js/index.js"></script>
 	</head>
 	<body>
 		<header>
@@ -25,28 +26,30 @@
 			</nav>
 		</header>
 		<main>
-			<section id="joinGame">
-				<!-- sends to /blank -->
-				<a href="blank">
-					<button>Join Game</button>
+			<section>
+				<a href="quiz?id=0">
+					<button type="button" value="Join Game" id="join">Join Game</button>
 				</a>
 			</section>
-			<section id="ar">
-				<div>Giraffes are the tallest animals in the world.</div>
-			</section>
-			<section id="arSwitcher">
-				<button>Neck</button>
-				<button>Spots</button>
-				<button>Speed</button>
-				<button>Sleep</button>
-				<button>Tongue</button>
-				<button>Diet</button>
-				<button>Tail</button>
-				<button>Eyes</button>
-				<button>Ears</button>
-				<button>Hooves</button>
+			<section>
+				<iframe src="ar.html"></iframe>
+				<div id="info">
+					Giraffes live on Earth, but come from Mars. They used to fly but now
+					they walk.
+				</div>
 			</section>
 		</main>
-		<footer></footer>
+		<footer>
+			<button type="button" value="Giraffe">Giraffe</button>
+			<button type="button" value="Neck">Neck</button>
+			<button type="button" value="Spots">Spots</button>
+			<button type="button" value="Speed">Speed</button>
+			<button type="button" value="Sleep">Sleep</button>
+			<button type="button" value="Tongue">Tongue</button>
+			<button type="button" value="Diet">Diet</button>
+			<button type="button" value="Eyes">Eyes</button>
+			<button type="button" value="Ears">Ears</button>
+			<button type="button" value="Hooves">Hooves</button>
+		</footer>
 	</body>
 </html>
