@@ -1,5 +1,5 @@
 // GET ARM quiz page
-const quiz = require('/data/game.json');
+const quiz = require('../public/data/game.json');
 
 exports.view = function (req, res) {
 	var questionID = req.query;
