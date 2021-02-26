@@ -48,7 +48,6 @@ app.get('/quiz', quiz.view);
 app.get('/tutorial', tutorial.view);
 app.get('/blank', blank.view);
 app.get('/incorrect', incorrect.view);
-app.get('/login', login.view);
 app.get('/correct', correct.view);
 app.get('/complete', complete.view);
 app.get('/signup', signup.view);

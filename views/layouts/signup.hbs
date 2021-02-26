@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<title>Login and Registration Form</title>
+		<title>ARM Signup</title>
 		<!-- Required meta tags -->
 		<meta charset="utf-8" />
 		<meta
@@ -16,7 +16,6 @@
 			integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
 			crossorigin="anonymous"
 		/>
-		<link rel="stylesheet" href="styles/login.css" />
 		<link rel="stylesheet" href="/styles/index.css" />
 		<link
 			rel="stylesheet"
@@ -29,12 +28,14 @@
 	</head>
 	<body>
 		<header>
-			<h1><a href="/index">AR Museum</a></h1>
-			{{!-- <nav>
+			<h1>AR Museum</h1>
+			<!--
+			<nav>
 				<button>
 					<i class="material-icons">menu</i>
 				</button>
-			</nav> --}}
+			</nav>
+			-->
 		</header>
 		<div class="container my-container">
 			<div class="form-row">
@@ -42,7 +43,7 @@
 					id="email"
 					name="email"
 					type="email"
-					placeholder="email address"
+					placeholder="Email Address"
 					class="form-control"
 					required
 				/>
@@ -52,34 +53,33 @@
 					id="password"
 					name="password"
 					type="password"
-					placeholder="password"
+					placeholder="Password"
 					type="password"
 					class="form-control"
 					required
 				/>
 			</div>
-      <div class="form-row">
-        <input
-          id="confirm-password"
-          name="confirm-password"
-          type="password"
-          placeholder="confirm password"
-          type="password"
-          class="form-control"
-          required
-        />
-      </div>
+			<div class="form-row">
+				<input
+					id="confirm-password"
+					name="confirm-password"
+					type="password"
+					placeholder="Confirm Password"
+					type="password"
+					class="form-control"
+					required
+				/>
+			</div>
 			<div class="form-row">
 				<a href="index">
 					<button type="submit" class="btn btn-primary">Sign Up</button>
 				</a>
 			</div>
-      <div class="form-row">
-        <a href="login">
-          <button type="submit" class="btn btn-primary">Back</button>
-        </a>
-      </div>
+			<div class="form-row">
+				<a href="/">
+					<button type="submit" class="btn btn-primary">Back</button>
+				</a>
 			</div>
-
+		</div>
 	</body>
 </html>

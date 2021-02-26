@@ -4,7 +4,7 @@
 2. Login
 3. Open Hiro.png on desktop (or print out)
 4. Point camera at Hiro marker
-5. View 3d model and learn facts about giraffes
+5. View 3d model and learn facts about giraffes (buttons are at bottom, scroll down)
 6. After viewing the model, Join Game to take the quiz
 
 # Links
