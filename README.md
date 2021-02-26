@@ -16,4 +16,5 @@ A5 hosting @ https://cogs120-armuseum.web.app
 Most up-to-date app hosted @ https://ar-museum.herokuapp.com
 
 # How we use json and handlebars
+
 We used json to get the questions for the quiz and handle whether the user selected the correct answer or not. As you can see in game.json, we have a list of questions with answers. This information is used in `quiz.hbs`, `correct.hbs`, `incorrect.hbs`, `routes/quiz.js`, `routes/correct.js`, and `routes/incorrect.js`
