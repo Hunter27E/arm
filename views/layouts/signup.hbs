@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<title>ARM Login</title>
+		<title>ARM Signup</title>
 		<!-- Required meta tags -->
 		<meta charset="utf-8" />
 		<meta
@@ -16,18 +16,14 @@
 			integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
 			crossorigin="anonymous"
 		/>
-
 		<link rel="stylesheet" href="/styles/index.css" />
-
+		<link
+			rel="stylesheet"
+			href="https://fonts.googleapis.com/icon?family=Material+Icons"
+		/>
 		<!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous"> -->
 		<!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script> -->
 		<script src="https://code.jquery.com/jquery.js"></script>
-		<style>
-			#register {
-				color: blue;
-				text-decoration: underline;
-			}
-		</style>
 	</head>
 	<body>
 		<header>
@@ -63,20 +59,25 @@
 				/>
 			</div>
 			<div class="form-row">
+				<input
+					id="confirm-password"
+					name="confirm-password"
+					type="password"
+					placeholder="Confirm Password"
+					type="password"
+					class="form-control"
+					required
+				/>
+			</div>
+			<div class="form-row">
 				<a href="index">
-					<button type="submit" class="btn btn-primary form-control">
-						Login
-					</button>
+					<button type="submit" class="btn btn-primary">Sign Up</button>
 				</a>
 			</div>
-		</div>
-		<div class="container signup-container">
-			<div class="row signup-row">
-				<div class="col-lg-12">
-					<p>
-						Don't have an account?<a href="signup" id="register"> Register</a>
-					</p>
-				</div>
+			<div class="form-row">
+				<a href="/">
+					<button type="submit" class="btn btn-primary">Back</button>
+				</a>
 			</div>
 		</div>
 	</body>

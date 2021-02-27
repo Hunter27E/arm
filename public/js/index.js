@@ -1,7 +1,6 @@
 const switchFact = (e) => {
 	let info = document.getElementById('info');
 	let newInfo = e.target.value;
-	console.log(newInfo);
 	switch (newInfo) {
 		case 'Giraffe':
 			newInfo =

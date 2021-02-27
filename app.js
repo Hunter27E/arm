@@ -13,6 +13,7 @@ const blank = require('./routes/blank');
 const incorrect = require('./routes/incorrect');
 const correct = require('./routes/correct');
 const complete = require('./routes/complete');
+const signup = require('./routes/signup');
 
 // create app and set port
 const port = process.env.PORT || 3000;
@@ -47,9 +48,9 @@ app.get('/quiz', quiz.view);
 app.get('/tutorial', tutorial.view);
 app.get('/blank', blank.view);
 app.get('/incorrect', incorrect.view);
-app.get('/login', login.view);
 app.get('/correct', correct.view);
 app.get('/complete', complete.view);
+app.get('/signup', signup.view);
 
 // create server and listen on port
 http.createServer(app).listen(app.get('port'), function () {

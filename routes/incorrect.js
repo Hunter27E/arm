@@ -1,13 +1,13 @@
 // GET ARM quiz page
-const quiz = require('../game.json');
+const quiz = require('../public/data/game.json');
 
 exports.view = function (req, res) {
 	var questionID = req.query;
-	question_number = parseInt(questionID["id"]);
+	question_number = parseInt(questionID['id']);
 
 	// data to pass to template
-	let data = quiz["questions"][question_number];
-	
+	let data = quiz['questions'][question_number];
+
 	data.layout = 'incorrect';
 	console.log(data);
 	res.render('incorrect', data);
