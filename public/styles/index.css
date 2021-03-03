@@ -6,7 +6,7 @@
 
 .Complete {
 	color: black;
-	margin-top: 5px
+	margin-top: 5px;
 }
 
 body {
@@ -57,7 +57,7 @@ nav button {
 }
 
 main {
-	height: 83vh;
+	height: 90vh;
 	width: 100vw;
 }
 
@@ -66,26 +66,28 @@ main section:first-child {
 	justify-content: flex-end;
 	align-items: center;
 	height: 5vh;
-	width: 100vw;
+	width: 99vw;
+	position: absolute;
+	z-index: 1;
 }
 
 main section:nth-child(2) {
-	width: 100vw;
+	width: 99vw;
 }
 
 #join {
 	border-style: solid;
-	border-radius: 3px;
+	border-radius: 8px;
 	border-color: var(--primary);
 	color: var(--primary);
 	background-color: white;
 	font-size: 14px;
-	-font-family: Lobster;
+	font-family: Lobster;
 }
 
 iframe {
-	height: 78vh;
-	width: 100vw;
+	height: 90vh;
+	width: 99vw;
 	position: absolute;
 	z-index: 0;
 }
@@ -96,7 +98,7 @@ iframe {
 	border-style: solid;
 	border-color: #ccc;
 	border-radius: 12px;
-	background-color: #ddd;
+	background-color: rgba(200, 200, 200, 0.75);
 	height: auto;
 	padding: 10px;
 	width: 150px;
@@ -113,7 +115,10 @@ footer {
 	white-space: nowrap;
 	display: flex;
 	align-items: center;
-	width: 100vw;
+	width: 99vw;
+	position: absolute;
+	bottom: 0;
+	background-color: rgba(200, 200, 200, 0.25);
 }
 
 footer button {
@@ -121,11 +126,11 @@ footer button {
 	background-color: white;
 	color: var(--primary);
 	font-size: 14px;
-	border-radius: 12px;
+	border-radius: 50%;
 	border-style: solid;
 	border-color: var(--primary);
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-	-font-family: Lobster;
+	font-family: Lobster;
 	margin-left: 5px;
 	margin-right: 5px;
 }
