@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Lobster');
+@import url('https://fonts.googleapis.com/css?family=Lobster|Barlow');
 
 :root {
 	--primary: #333;
@@ -7,6 +7,59 @@
 .Complete {
 	color: black;
 	margin-top: 5px;
+}
+
+#modal {
+	position: absolute;
+	right: 0;
+	height: 100vh;
+	width: 50vw;
+	background-color: white;
+	z-index: 2;
+	display: none; /* changed to flex when hamburger pressed */
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+#options {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	height: 50%;
+}
+
+#options > * {
+	height: 25%;
+	width: 100%;
+}
+
+#options div {
+	display: flex;
+	justify-content: flex-end;
+}
+
+i {
+	margin-top: 5px;
+	margin-right: 5px;
+}
+
+#options a {
+	color: var(--primary);
+	font-size: 24px;
+	font-weight: bold;
+	border: none;
+}
+
+#modal p,
+#modal a {
+	color: var(--primary);
+	font-family: Barlow;
+	text-align: center;
+}
+
+#modal > p > a {
+	text-decoration: underline;
 }
 
 body {
@@ -48,12 +101,10 @@ nav {
 	align-items: center;
 }
 
-nav button {
-	height: 30px;
-	border: none;
-	border-radius: 7px;
-	background-color: white;
-	margin-right: 5px;
+nav i {
+	font-size: 48px;
+	color: rgba(255, 255, 255, 1);
+	margin-right: 10%;
 }
 
 main {
@@ -66,13 +117,13 @@ main section:first-child {
 	justify-content: flex-end;
 	align-items: center;
 	height: 5vh;
-	width: 99vw;
+	width: 100vw;
 	position: absolute;
 	z-index: 1;
 }
 
 main section:nth-child(2) {
-	width: 99vw;
+	width: 100vw;
 }
 
 #join {
@@ -87,9 +138,10 @@ main section:nth-child(2) {
 
 iframe {
 	height: 90vh;
-	width: 99vw;
+	width: 100vw;
 	position: absolute;
 	z-index: 0;
+	border: none; /* caused weird outline of iframe */
 }
 
 #info {
@@ -107,32 +159,33 @@ iframe {
 	text-align: center;
 	margin-top: 25px;
 	margin-left: 15px;
+	font-family: Barlow;
 }
 
 footer {
-	height: 7vh;
 	overflow: auto;
 	white-space: nowrap;
 	display: flex;
 	align-items: center;
-	width: 99vw;
+	width: 100vw;
 	position: absolute;
 	bottom: 0;
-	background-color: rgba(200, 200, 200, 0.25);
+	background-color: transparent;
+	margin-bottom: 10px;
 }
 
 footer button {
 	border: none;
 	background-color: white;
 	color: var(--primary);
-	font-size: 14px;
 	border-radius: 50%;
 	border-style: solid;
 	border-color: var(--primary);
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	font-family: Lobster;
-	margin-left: 5px;
-	margin-right: 5px;
+	margin: 0 5px;
+	min-width: 60px;
+	min-height: 60px;
 }
 
 button:hover {
