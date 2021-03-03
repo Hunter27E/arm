@@ -128,11 +128,12 @@ main section:nth-child(2) {
 
 #join {
 	border-style: solid;
-	border-radius: 8px;
+	border-radius: 6px;
 	border-color: var(--primary);
 	color: var(--primary);
 	background-color: white;
 	font-size: 14px;
+	margin-right: 2px;
 	font-family: Lobster;
 }
 
@@ -171,7 +172,7 @@ footer {
 	position: absolute;
 	bottom: 0;
 	background-color: transparent;
-	margin-bottom: 10px;
+	margin-bottom: 5px;
 }
 
 footer button {
@@ -181,7 +182,6 @@ footer button {
 	border-radius: 50%;
 	border-style: solid;
 	border-color: var(--primary);
-	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	font-family: Lobster;
 	margin: 0 5px;
 	min-width: 60px;
