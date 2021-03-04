@@ -8,8 +8,23 @@
 		<script src="https://aframe.io/releases/1.0.0/aframe.min.js"></script>
 		<script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar.js"></script>
 		<script src="/js/gestures.js"></script>
+		<style>
+			#warning {
+				position: absolute;
+				background-color: red;
+				text-align: center;
+				color: black;
+				width: auto;
+				height: auto;
+				padding: 15px;
+				bottom: 30px;
+				z-index: 50;
+			}
+		</style>
 	</head>
+	<div id="warning">Some Info Here</div>
 	<body style="margin: 0px; overflow: hidden">
+		<div id="warning">SOme info</div>
 		<a-scene
 			id="scene"
 			gesture-detector
@@ -18,6 +33,12 @@
 			arjs
 			vr-mode-ui="enabled: false"
 		>
+			<a-assets>
+				<a-asset-item
+					id="bowser"
+					src="https://cdn.glitch.com/06bd98b4-97ee-4c07-a546-fe39ca205034%2Fbowser.glb"
+				></a-asset-item>
+			</a-assets>
 			<a-marker
 				preset="hiro"
 				raycaster="objects: .clickable"
@@ -26,15 +47,15 @@
 				id="markerA"
 			>
 				<a-entity
-					id="model"
+					id="bowser-model"
 					class="clickable"
 					gesture-handler
 					position="0 0 0"
 					scale="0.05 0.05 0.05"
-					gltf-model="https://cdn.glitch.com/06bd98b4-97ee-4c07-a546-fe39ca205034%2Fbowser.glb"
+					gltf-model="#bowser"
 				></a-entity>
 			</a-marker>
-			<a-camera-static />
+			<a-entity camera></a-entity>
 		</a-scene>
 	</body>
 </html>
