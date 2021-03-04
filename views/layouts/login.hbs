@@ -30,14 +30,19 @@
 		</style>
 		{{> facebook}}
 		<script src="/js/facebook.js"></script>
+		<div id="fb-root"></div>
+		<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v10.0&appId=676014709634737&autoLogAppEvents=1" nonce="zTGldGh1"></script>
 	</head>
 	<body>
 		{{> header}}
 
-		<div class="container my-container">
-			<div class="facebook-login-button">
-						<fb:login-button scope="public_profile,email" onlogin="checkLoginState();">
-					</fb:login-button>
+		<div class="container my-container mt-5">
+			<div class="row align-items-center justify-content-center">
+				<div class="fb-login-button" data-width="" data-size="large" data-button-type="continue_with" data-layout="default" data-auto-logout-link="false" data-use-continue-as="true"  onlogin="checkLoginState();"></div>
+						{{!-- <fb:login-button scope="public_profile,email" onlogin="checkLoginState();">
+					</fb:login-button> --}}
+			</div>
+			
 		</div>
 	</body>
 </html>
