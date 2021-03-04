@@ -28,6 +28,8 @@
 				text-decoration: underline;
 			}
 		</style>
+		{{> facebook}}
+		<script src="/js/facebook.js"></script>
 	</head>
 	<body>
 		<header>
@@ -67,6 +69,10 @@
 					<button type="submit" class="btn btn-primary form-control">
 						Login
 					</button>
+					<div class="facebook-login-button">
+						<fb:login-button scope="public_profile,email" onlogin="checkLoginState();">
+					</fb:login-button>
+		</div>
 				</a>
 			</div>
 		</div>
