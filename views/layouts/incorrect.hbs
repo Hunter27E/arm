@@ -22,13 +22,16 @@
 	<body>
         {{> header}}
         <div class="container">
-            <h1>{{question}}</h1>
+            <h2>{{question}}</h2>
             {{#each answers}}
                 {{#if is_correct}}
                 <h3>Incorrect. You should have picked: {{answer}}</h3>
                 {{/if}}
             {{/each}}
-
+            <div>
+                {{> progress this}}
+            </div>
+            
             <button id="next" class="btn btn-secondary">Next Question</button>
         </div>
     </body>
