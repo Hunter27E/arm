@@ -7,11 +7,28 @@
 		<!-- A-Frame -->
 		<script src="https://aframe.io/releases/1.0.0/aframe.min.js"></script>
 		<script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar.js"></script>
+		<script src="/js/gestures.js"></script>
 	</head>
 	<body style="margin: 0px; overflow: hidden">
-		<a-scene embedded arjs vr-mode-ui="enabled: false">
-			<a-marker preset="hiro">
+		<a-scene
+			id="scene"
+			gesture-detector
+			embedded
+			renderer="logarithmicDepthBuffer: true;"
+			arjs
+			vr-mode-ui="enabled: false"
+		>
+			<a-marker
+				preset="hiro"
+				raycaster="objects: .clickable"
+				emitevents="true"
+				cursor="fuse: false; rayOrigin: mouse;"
+				id="markerA"
+			>
 				<a-entity
+					id="model"
+					class="clickable"
+					gesture-handler
 					position="0 0 0"
 					scale="0.05 0.05 0.05"
 					gltf-model="https://arjs-cors-proxy.herokuapp.com/https://raw.githack.com/AR-js-org/AR.js/master/aframe/examples/image-tracking/nft/trex/scene.gltf"
