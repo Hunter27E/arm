@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster|Barlow');
+:root {
+	--primary: #333;
+}
+header {
+	background-color: var(--primary);
+	display: grid;
+	grid-template-columns: 33vw 34vw 33vw;
+	grid-template-rows: 10vh;
+	width: 100vw;
+	font-family: Lobster;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+h1 {
+	font-size: 24px;
+	color: white;
+	grid-column: 2 / 3;
+	grid-row: 1 / 2;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
