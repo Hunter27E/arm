@@ -1,0 +1,112 @@
+
+html, body {
+  overflow-x: hidden;
+}
+body {
+  position: relative
+}
+
+/*Menu CSS*/
+
+#modal {
+	position: absolute;
+	right: 0;
+	height: 100vh;
+	width: 50vw;
+	background-color: white;
+	z-index: 2;
+	display: none; /* changed to flex when hamburger pressed */
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+#options {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	height: 50%;
+}
+
+#options > * {
+	height: 25%;
+	width: 100%;
+}
+
+#options div {
+	display: flex;
+	justify-content: flex-end;
+}
+
+i {
+	margin-top: 5px;
+	margin-right: 5px;
+}
+
+#options a {
+	color: var(--primary);
+	font-size: 24px;
+	font-weight: bold;
+	border: none;
+}
+
+#modal p,
+#modal a {
+	color: var(--primary);
+	font-family: Barlow;
+	text-align: center;
+}
+
+#modal > p > a {
+	text-decoration: underline;
+}
+
+/*Onboarding Picture*/
+
+.img-fluid{
+  max-width: auto;
+  max-height: 55vh;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.mainbody{
+  width: 100%;
+}
+
+.mainrow{
+  width: 100%;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  height: 50vh;
+}
+
+.description-container{
+  width: 100%;
+}
+
+.description-row{
+  width: 80%;
+  height: 20vh;
+  padding-top: 5vh;
+  text-align: center;
+}
+
+/*Button to get started */
+
+.buttoncontainer{
+  width: 100%
+}
+
+.button-row{
+  text-align: center;
+  width: 50%
+  height: 8vh;
+}
+
+.btn{
+  width: 80%;
+}
