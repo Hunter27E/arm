@@ -9,7 +9,7 @@
                 {"answer": "750 pounds", "is_correct": false},
                 {"answer": "3750 pounds", "is_correct": false}
             ],
-            "correct-answer": "3000 pounds"
+            "question-number": "1"
         },
         {
             "question": "What is the fastest speed a giraffe can run?",
@@ -18,7 +18,8 @@
                 {"answer": "37 mph", "is_correct": true},
                 {"answer": "47 mph", "is_correct": false},
                 {"answer": "57 mph", "is_correct": false}
-            ]
+            ],
+            "question-number": "2"
         },
         {
             "question": "About how long do giraffes live?",
@@ -27,7 +28,8 @@
                 {"answer": "16 years", "is_correct": false},
                 {"answer": "26 years", "is_correct": true},
                 {"answer": "23 years", "is_correct": false}
-            ]
+            ],
+            "question-number": "3"
         },
         {
             "question": "What is a baby giraffe called",
@@ -36,7 +38,8 @@
                 {"answer": "Colt", "is_correct": false},
                 {"answer": "Foal", "is_correct": false},
                 {"answer": "Fawn", "is_correct": false}
-            ]
+            ],
+            "question-number": "4"
         }
     ]
 }
