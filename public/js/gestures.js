@@ -32,6 +32,7 @@ AFRAME.registerComponent('gesture-handler', {
 		} else {
 			this.el.sceneEl.removeEventListener('onefingermove', this.handleRotation);
 			this.el.sceneEl.removeEventListener('twofingermove', this.handleScale);
+			// show the "Not Found banner"
 		}
 	},
 
