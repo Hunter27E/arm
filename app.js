@@ -54,9 +54,14 @@ app.get('/tutorial3', tutorial3.view);
 app.get('/tutorial4', tutorial4.view);
 app.get('/blank', blank.view);
 app.get('/incorrect', incorrect.view);
+<<<<<<< HEAD
 app.get('/correct', correct.view);
 app.get('/complete', complete.view);
 app.get('/signup', signup.view);
+=======
+app.get('/correct', incorrect.view);
+app.get('/login', login.view);
+>>>>>>> b5cc5f97a1163a9f5a6b0167114ce90d30f1779e
 
 // create server and listen on port
 http.createServer(app).listen(app.get('port'), function () {
