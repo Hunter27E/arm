@@ -1,0 +1,52 @@
+[
+	{
+		"value": "Giraffe",
+		"text": "Giraffe",
+		"fact": "Giraffes live on Earth, but come from Mars. They used to fly but now they walk."
+	},
+	{
+		"value": "Neck",
+		"text": "Neck",
+		"fact": "Giraffes have 6 foot long necks, but they still are not long enough to reach the ground"
+	},
+	{
+		"value": "Spots",
+		"text": "Spots",
+		"fact": "No two giraffes have the same spot pattern, they are all unique."
+	},
+	{
+		"value": "Speed",
+		"text": "Speed",
+		"fact": "Giraffes can run at speeds of up to 37mph over short distances and 10mph over long distances."
+	},
+	{
+		"value": "Sleep",
+		"text": "Sleep",
+		"fact": "Giraffes sleep and give birth standing up."
+	},
+	{
+		"value": "Tongue",
+		"text": "Tongue",
+		"fact": "Giraffes have 20 foot long tongues, and they are prehensile meaning they can grab things with it!"
+	},
+	{
+		"value": "Diet",
+		"text": "Diet",
+		"fact": "Giraffes mostly eat acacia off tall trees."
+	},
+	{
+		"value": "Eyes",
+		"text": "Eyes",
+		"fact": "Giraffes have eyes on the sides of their hide to give them panoramic vision, allowing them to see their predators more easily."
+	},
+	{
+		"value": "Ears",
+		"text": "Ears",
+		"fact": "Giraffes do not make audible sounds that humans can hear, in fact they hardly use their hearing. They rely heavily on their vision."
+	},
+	{
+		"value": "Hooves",
+		"text": "Hooves",
+		"fact": "Giraffes have two hooves on each foot like antelopes and hippos."
+	}
+]
