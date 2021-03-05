@@ -19,6 +19,8 @@
     "node": "^15.5.0"
   },
   "description": "Hosted @ https://ar-museum.herokuapp.com",
+  "express3-handlebars": "*",
+  "express": "3.x",
   "main": "y",
   "devDependencies": {},
   "repository": {

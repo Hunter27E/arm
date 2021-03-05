@@ -28,56 +28,16 @@
 				text-decoration: underline;
 			}
 		</style>
+		{{> facebook}}
+		<script src="/js/facebook.js"></script>
 	</head>
 	<body>
-		<header>
-			<h1>AR Museum</h1>
-			<!--
-			<nav>
-				<button>
-					<i class="material-icons">menu</i>
-				</button>
-			</nav>
-			-->
-		</header>
+		{{> header}}
+
 		<div class="container my-container">
-			<div class="form-row">
-				<input
-					id="email"
-					name="email"
-					type="email"
-					placeholder="Email Address"
-					class="form-control"
-					required
-				/>
-			</div>
-			<div class="form-row">
-				<input
-					id="password"
-					name="password"
-					type="password"
-					placeholder="Password"
-					type="password"
-					class="form-control"
-					required
-				/>
-			</div>
-			<div class="form-row">
-				<a href="index">
-					<button type="submit" class="btn btn-primary form-control">
-						Login
-					</button>
-				</a>
-			</div>
-		</div>
-		<div class="container signup-container">
-			<div class="row signup-row">
-				<div class="col-lg-12">
-					<p>
-						Don't have an account?<a href="signup" id="register"> Register</a>
-					</p>
-				</div>
-			</div>
+			<div class="facebook-login-button">
+						<fb:login-button scope="public_profile,email" onlogin="checkLoginState();">
+					</fb:login-button>
 		</div>
 	</body>
 </html>
