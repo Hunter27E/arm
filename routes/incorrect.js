@@ -11,23 +11,23 @@ exports.view = function (req, res) {
 	// data to pass to template
 	let data = {};
 	data.incorrect = [];
-	
+
 	data.question = quiz['questions'][question_number];
 
 	var obj = new Object();
-	obj.question = data.question.question
+	obj.question = data.question.question;
 	obj.incorrect_answer = choice;
 	// var correct_answer;
-	for(i = 0; i < data.question.answers.length; i++) {
-		if(data.question.answers[i].is_correct) {
-			obj.correct_answer = data.question.answers[i].answer
+	for (i = 0; i < data.question.answers.length; i++) {
+		if (data.question.answers[i].is_correct) {
+			obj.correct_answer = data.question.answers[i].answer;
 		}
 	}
 	// obj.incorrect = {"question": question, "incorrect-answer": incorrect_answer, "correct-answer": correct_answer}
 
 	data.incorrect.push(obj);
 
-	console.log(data);
+	// console.log(data);
 
 	data.layout = 'incorrect';
 	// console.log(data);

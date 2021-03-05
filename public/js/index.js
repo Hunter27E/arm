@@ -23,7 +23,7 @@ var switchFact = (e) => {
 			break;
 		case 'Tongue':
 			newInfo =
-				'Giraffes have 20 foot long tongues, and they are prehensile meaning they can grab things with it!';
+				'Giraffes have 20 inch long tongues, and they are prehensile meaning they can grab things with it!';
 			break;
 		case 'Diet':
 			newInfo = 'Giraffes mostly eat acacia off tall trees.';
