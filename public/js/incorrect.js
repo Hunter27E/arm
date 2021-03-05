@@ -17,7 +17,7 @@ function clickedNext(e) {
 	const next_question_id = parseInt(getUrlVars()['id']) + 1;
 
 	// TODO: Hard coded number of questions to be 4, should be dynamic
-	if (next_question_id > 3) {
+	if (next_question_id > 7) {
 		location.href = '/complete';
 		//console.log("complete")
 	} else {
