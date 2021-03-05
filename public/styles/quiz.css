@@ -1,32 +1,38 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster|Barlow');
+
+* {
+	font-family: Barlow;
+}
+
 #countdown {
-    justify-content: center;
-    align-content: center;
-    width:100%;
-    height: 100px;
-    display: flex;
-    margin-top: 5px;
-    text-align: center;
+	justify-content: center;
+	align-content: center;
+	width: 100%;
+	height: 100px;
+	display: flex;
+	margin-top: 5px;
+	text-align: center;
 }
 
 .timer-row {
-    align-items:center;
-    align-content: center;
-    justify-content: center;
-    width:50%;
-    text-align: center; 
+	align-items: center;
+	align-content: center;
+	justify-content: center;
+	width: 50%;
+	text-align: center;
 }
 .timer {
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
 }
 
 #countdown {
-    align-items:center;
-    align-content: center;
-    justify-content: center;
+	align-items: center;
+	align-content: center;
+	justify-content: center;
 }
 
 .btn {
-    margin-top: 5px;
+	margin-top: 5px;
 }
