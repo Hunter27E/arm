@@ -4,6 +4,10 @@
 	font-family: Barlow;
 }
 
+header a {
+	font-family: Lobster;
+}
+
 #countdown {
 	justify-content: center;
 	align-content: center;
