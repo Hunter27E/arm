@@ -19,16 +19,19 @@ function initializePage() {
 
 function clickedIncorrectButton(e) {
     e.preventDefault();
+    // console.log($(this).text());
     const questionID = getUrlVars();
-	  const question_number = parseInt(questionID["id"]);
-    location.href = "/incorrect?id=" + question_number;
+	const question_number = parseInt(questionID["id"]);
+    
+    location.href = "/incorrect?id=" + question_number + "&chose=" + $(this).text();
 }
 
 function clickedCorrectButton(e) {
+    // console.log($(this).text());
     e.preventDefault();
     const questionID = getUrlVars();
-	  const question_number = parseInt(questionID["id"]);
-    location.href = "/correct?id=" + question_number;
+    const question_number = parseInt(questionID["id"]);
+    location.href = "/correct?id=" + question_number + "&chose=" + $(this).text();
 }
 
 // Read a page's GET URL variables and return them as an associative array.

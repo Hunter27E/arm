@@ -22,8 +22,8 @@
 	<body>
         {{> header}}
         <div class="container">
-            <h2>{{question}}</h2>
-            {{#each answers}}
+            <h2>{{question.question}}</h2>
+            {{#each question.answers}}
                 {{#if is_correct}}
                 <h3>Correct, {{answer}}</h3>
                 {{/if}}

@@ -1,4 +1,4 @@
-const switchFact = (e) => {
+var switchFact = (e) => {
 	let info = document.getElementById('info');
 	let newInfo = e.target.value;
 	switch (newInfo) {
