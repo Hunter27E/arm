@@ -22,17 +22,17 @@
 	<body>
         {{> header}}
         <div class="container">
-            <h2>{{question}}</h2>
-            {{#each answers}}
-                {{#if is_correct}}
-                <h3>Incorrect. You should have picked: {{answer}}</h3>
-                {{/if}}
-            {{/each}}
+            <h2>{{question.question}}</h2>
+                <h3>Incorrect</h3>
+                <h4>You picked: {{incorrect.[0].incorrect_answer}}</h2>
+                <h4>But the correct answer was: {{incorrect.[0].correct_answer}}</h2>
+            
+            <div>
+                <button id="next" class="btn btn-secondary">Next Question</button>
+            </div>
             <div>
                 {{> progress this}}
             </div>
-            
-            <button id="next" class="btn btn-secondary">Next Question</button>
         </div>
     </body>
 </html>

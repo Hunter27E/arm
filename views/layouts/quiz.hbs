@@ -23,11 +23,11 @@
 	<body>
         {{> header}}
         <div class="container">
-            <h2 class="question">{{question}}</h2>
+            <h2 class="question">{{question.question}}</h2>
             <!-- creates the list of vertical buttons -->
             <!-- https://getbootstrap.com/docs/4.0/components/list-group/ -->
             <ul class="list-group">
-                    {{#each answers}}
+                    {{#each question.answers}}
                         <!-- add 'active' to set the clicked button -->
                         <!-- https://getbootstrap.com/docs/4.0/components/buttons/ -->
                         {{!-- TODO: should probably not show whether it is correct or not in html --}}
