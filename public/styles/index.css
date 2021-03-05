@@ -169,7 +169,7 @@ footer {
 	display: flex;
 	align-items: center;
 	width: 100vw;
-	position: absolute;
+	position: fixed;
 	bottom: 0;
 	background-color: transparent;
 	margin-bottom: 5px;

@@ -12,7 +12,7 @@ var switchFact = (e) => {
 			break;
 		case 'Spots':
 			newInfo =
-				'No two giraffes have the same spot pattern, they are all unique.';
+				"No two giraffes have the same spot pattern, they are all unique. They also help regulate the giraffe's body temperature!";
 			break;
 		case 'Speed':
 			newInfo =
