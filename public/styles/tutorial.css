@@ -6,6 +6,15 @@ body {
   position: relative
 }
 
+.img-fluid{
+  max-width: auto;
+  max-height: 48vh;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
 
 .top-section{
   width: 100%;
@@ -27,7 +36,6 @@ body {
 .mainrow{
   width: 100%;
   height: 350px;
-  background-color: #F2F2F2;
   text-align: center;
   align-items: center;
   align-content: center;
