@@ -12,7 +12,6 @@ const tutorial1 = require('./routes/tutorial1');
 const tutorial2 = require('./routes/tutorial2');
 const tutorial3 = require('./routes/tutorial3');
 const tutorial4 = require('./routes/tutorial4');
-const blank = require('./routes/blank');
 const incorrect = require('./routes/incorrect');
 const correct = require('./routes/correct');
 const complete = require('./routes/complete');
@@ -53,14 +52,12 @@ app.get('/tutorial1', tutorial1.view);
 app.get('/tutorial2', tutorial2.view);
 app.get('/tutorial3', tutorial3.view);
 app.get('/tutorial4', tutorial4.view);
-app.get('/blank', blank.view);
 app.get('/incorrect', incorrect.view);
 app.get('/correct', correct.view);
 app.get('/complete', complete.view);
 app.get('/signup', signup.view);
 app.get('/login', login.view);
 app.get('/game-intro', game_intro.view);
-
 
 // create server and listen on port
 http.createServer(app).listen(app.get('port'), function () {

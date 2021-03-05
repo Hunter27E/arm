@@ -7,8 +7,8 @@ exports.view = function (req, res) {
 	question_number = parseInt(questionID['id']);
 
 	// data to pass to template
-	let data = {}
-	
+	let data = {};
+
 	data.question = quiz['questions'][question_number];
 
 	data.layout = 'quiz';

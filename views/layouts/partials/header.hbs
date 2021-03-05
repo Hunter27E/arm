@@ -1,26 +1,41 @@
 {{!-- <link rel="stylesheet" href="/styles/header.css" /> --}}
 <link rel="stylesheet" href="/styles/index.css" />
 <link
-			rel="stylesheet"
-			href="https://fonts.googleapis.com/icon?family=Material+Icons"
+	rel="stylesheet"
+	href="https://fonts.googleapis.com/icon?family=Material+Icons|Material+Icons+Outlined"
 />
 <script src="/js/index.js"></script>
+<style>
+	section a {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	section i {
+		align-self: center;
+		font-style: 'outlined';
+	}
+</style>
 <!--- Hamburger Start -->
 <section id="modal">
-    <div id="options">
-        <div>
-            <i class="material-icons">clear</i>
-        </div>
-        <a href=""> AR Home </a>
-        <a href="tutorial1"> Tutorial </a>
-        <a href="/"> Signout </a>
-    </div>
-    <p>Powered by <a href="https://aframe.io">A-Frame</a></p>
+	<div id="options">
+		<div>
+			<i class="material-icons">clear</i>
+		</div>
+		<a href="index">
+			AR Home &nbsp;<i class="material-icons-outlined">home</i></a
+		>
+		<a href="tutorial1">
+			Tutorial &nbsp;<i class="material-icons">help_outline</i></a
+		>
+		<a href="/"> Signout &nbsp;<i class="material-icons">logout</i></a>
+	</div>
+	<p>Powered by <a href="https://aframe.io">A-Frame</a></p>
 </section>
 <!-- Hamburger End -->
 <header>
-    <h1><a href="/index">AR Museum</a></h1>
-    <nav>
-        <i class="material-icons">menu</i>
-    </nav>
+	<h1><a href="/index">AR Museum</a></h1>
+	<nav>
+		<i class="material-icons">menu</i>
+	</nav>
 </header>
