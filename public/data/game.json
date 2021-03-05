@@ -40,6 +40,46 @@
                 {"answer": "Fawn", "is_correct": false}
             ],
             "question-number": "4"
+        },
+        {
+            "question": "How long are giraffes necks on average?",
+            "answers": [
+                {"answer": "4 feet", "is_correct": false},
+                {"answer": "6 feet", "is_correct": true},
+                {"answer": "8 feet", "is_correct": false},
+                {"answer": "10 feet", "is_correct": false}
+            ],
+            "question-number": "5"
+        },
+        {
+            "question": "Giraffe spots help regulate ____",
+            "answers": [
+                {"answer": "Body temperature", "is_correct": true},
+                {"answer": "appetite", "is_correct": false},
+                {"answer": "breathing", "is_correct": false},
+                {"answer": "brain cells", "is_correct": false}
+            ],
+            "question-number": "6"
+        },
+        {
+            "question": "Giraffes have this many hooves on each foot",
+            "answers": [
+                {"answer": "1", "is_correct": false},
+                {"answer": "2", "is_correct": true},
+                {"answer": "3", "is_correct": false},
+                {"answer": "4", "is_correct": false}
+            ],
+            "question-number": "7"
+        },
+        {
+            "question": "How long are giraffe tongues?",
+            "answers": [
+                {"answer": "10 inches", "is_correct": false},
+                {"answer": "12 inches", "is_correct": false},
+                {"answer": "16 inches", "is_correct": false},
+                {"answer": "20 inches", "is_correct": true}
+            ],
+            "question-number": "8"
         }
     ]
 }
