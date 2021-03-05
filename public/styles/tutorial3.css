@@ -65,7 +65,7 @@ i {
 
 .img-fluid{
   max-width: auto;
-  max-height: 55vh;
+  max-height: 44vh;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -81,7 +81,7 @@ i {
   align-items: center;
   align-content: center;
   justify-content: center;
-  height: 50vh;
+  height: 45vh;
 }
 
 .description-container{
