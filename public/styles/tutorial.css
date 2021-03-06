@@ -4,6 +4,10 @@
 	font-family: Barlow;
 }
 
+header a {
+	font-family: Lobster;
+}
+
 html,
 body {
 	overflow-x: hidden;
