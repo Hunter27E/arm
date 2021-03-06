@@ -17,6 +17,7 @@ const correct = require('./routes/correct');
 const complete = require('./routes/complete');
 const signup = require('./routes/signup');
 const game_intro = require('./routes/game-intro');
+const picker = require('./routes/picker');
 
 // create app and set port
 const port = process.env.PORT || 3000;
@@ -58,6 +59,7 @@ app.get('/complete', complete.view);
 app.get('/signup', signup.view);
 app.get('/login', login.view);
 app.get('/game-intro', game_intro.view);
+app.get('/picker', picker.view);
 
 // create server and listen on port
 http.createServer(app).listen(app.get('port'), function () {
