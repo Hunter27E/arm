@@ -39,21 +39,21 @@
 		{{> header}}
 		<main>
 			<section>
-				<a href="game-intro">
+				<!-- add ?/modelName -->
+				<a href="game-intro?model={{exhibit}}">
 					<button type="button" value="Join Game" id="join">Join Game</button>
 				</a>
 			</section>
 			<section>
 				<iframe src="ar.html"></iframe>
 				<div id="info">
-					Giraffes live on Earth, but come from Mars. They used to fly but now
-					they walk.
+					{{initialFact}}
 				</div>
 			</section>
 		</main>
 		<footer>
 			{{#each btns.buttons}}
-			<button type="button" value="{{value}}">{{text}}</button>
+			<button type="button" value="{{value}}">{{value}}</button>
 			{{/each}}
 		</footer>
 	</body>
