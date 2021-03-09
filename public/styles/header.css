@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Lobster|Barlow');
+
 :root {
 	--primary: #333;
 }
+
 header {
 	background-color: var(--primary);
 	display: grid;
@@ -14,6 +16,10 @@ header {
 a {
 	text-decoration: none;
 	color: white;
+}
+
+header a {
+	font-family: Lobster;
 }
 
 h1 {

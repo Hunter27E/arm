@@ -1,0 +1,94 @@
+{
+	"giraffe": {
+		"buttons": [
+			{
+				"value": "Giraffe",
+				"fact": "Giraffes live on Earth, but come from Mars. They used to fly but now they walk."
+			},
+			{
+				"value": "Neck",
+				"fact": "Giraffes have 6 foot long necks, but they still are not long enough to reach the ground"
+			},
+			{
+				"value": "Spots",
+				"fact": "No two giraffes have the same spot pattern, they are all unique."
+			},
+			{
+				"value": "Speed",
+				"fact": "Giraffes can run at speeds of up to 37mph over short distances and 10mph over long distances."
+			},
+			{
+				"value": "Sleep",
+				"fact": "Giraffes sleep and give birth standing up."
+			},
+			{
+				"value": "Tongue",
+				"fact": "Giraffes have 20 foot long tongues, and they are prehensile meaning they can grab things with it!"
+			},
+			{
+				"value": "Diet",
+				"fact": "Giraffes mostly eat acacia off tall trees."
+			},
+			{
+				"value": "Eyes",
+				"fact": "Giraffes have eyes on the sides of their hide to give them panoramic vision, allowing them to see their predators more easily."
+			},
+			{
+				"value": "Ears",
+				"fact": "Giraffes do not make audible sounds that humans can hear, in fact they hardly use their hearing. They rely heavily on their vision."
+			},
+			{
+				"value": "Hooves",
+				"fact": "Giraffes have two hooves on each foot like antelopes and hippos."
+			}
+		]
+	},
+	"sol": {
+		"buttons": [
+			{
+				"value": "SOL",
+				"fact": "The full name of the Statue of Liberty is Liberty Enlightening the World."
+			},
+			{
+				"value": "Lady",
+				"fact": "The Statue of Liberty represents Libertas, the Roman goddess of freedom"
+			},
+			{
+				"value": "Gift",
+				"fact": "France gifted the statue to the U.S in 1886."
+			},
+			{
+				"value": "Shoes",
+				"fact": "Lady Liberty wears a size 879 shoe! Absolutely massive!"
+			},
+			{
+				"value": "Size",
+				"fact": "From the ground to the tip of the torch, the statue is 93 meters tall. It weighs 204 metric tons."
+			},
+			{
+				"value": "Waist",
+				"fact": "Liberty's waistline is 35 feet. That's 420 inches!"
+			},
+			{
+				"value": "Stairs",
+				"fact": "To get to the crown of the statue, you must climb 354 stairs. Make sure to bring your water."
+			},
+			{
+				"value": "Crown",
+				"fact": "There are 25 windows to look out of in the statue's crown."
+			},
+			{
+				"value": "Visitors",
+				"fact": "About 4.5 million people visit the statue every year. Almost as much as the Eiffel Tower which gets 4.5 million visitor per year!"
+			},
+			{
+				"value": "Build",
+				"fact": "The interior of the statue is made of iron and the exterior is made of copper."
+			},
+			{
+				"value": "Color",
+				"fact": "Liberty used to be copper color, however due to oxidation she is now green. This green coating protects the statue from deterioration."
+			}
+		]
+	}
+}
