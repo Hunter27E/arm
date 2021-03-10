@@ -30,7 +30,7 @@
 }
 
 #options > * {
-	height: 25%;
+	height: 20%;
 	width: 100%;
 }
 
@@ -74,7 +74,7 @@ header {
 	grid-template-columns: 33vw 34vw 33vw;
 	grid-template-rows: 10vh;
 	width: 100vw;
-	font-family: Lobster;
+	font-family: Lobster !important;
 }
 
 a {
@@ -169,7 +169,7 @@ footer {
 	display: flex;
 	align-items: center;
 	width: 100vw;
-	position: absolute;
+	position: fixed;
 	bottom: 0;
 	background-color: transparent;
 	margin-bottom: 5px;

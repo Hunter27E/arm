@@ -14,7 +14,6 @@
 			rel="stylesheet"
 			href="https://fonts.googleapis.com/icon?family=Material+Icons"
 		/>
-		<script src="/data/buttons.json"></script>
 		<script src="/js/index.js"></script>
 	</head>
 	<body>
@@ -40,29 +39,22 @@
 		{{> header}}
 		<main>
 			<section>
-				<a href="game-intro">
+				<!-- add ?/modelName -->
+				<a href="game-intro?model={{exhibit}}">
 					<button type="button" value="Join Game" id="join">Join Game</button>
 				</a>
 			</section>
 			<section>
 				<iframe src="ar.html"></iframe>
 				<div id="info">
-					Giraffes live on Earth, but come from Mars. They used to fly but now
-					they walk.
+					{{initialFact}}
 				</div>
 			</section>
 		</main>
 		<footer>
-			<button type="button" value="Giraffe">Giraffe</button>
-			<button type="button" value="Neck">Neck</button>
-			<button type="button" value="Spots">Spots</button>
-			<button type="button" value="Speed">Speed</button>
-			<button type="button" value="Sleep">Sleep</button>
-			<button type="button" value="Tongue">Tongue</button>
-			<button type="button" value="Diet">Diet</button>
-			<button type="button" value="Eyes">Eyes</button>
-			<button type="button" value="Ears">Ears</button>
-			<button type="button" value="Hooves">Hooves</button>
+			{{#each btns.buttons}}
+			<button type="button" value="{{value}}">{{value}}</button>
+			{{/each}}
 		</footer>
 	</body>
 </html>

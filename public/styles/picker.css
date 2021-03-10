@@ -1,0 +1,29 @@
+.giraffe-container{
+  height: 40vh;
+  width: 100%;
+}
+
+.giraffe-row{
+  height: 30vh;
+  width: 100%;
+}
+
+.img-fluid{
+  max-height: 30vh;
+  max-width: auto;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.statue-container{
+  height: 40vh;
+  width: 100%;
+}
+
+.btn{
+  width: 50%;
+  padding-right: 50%;
+  padding-left: 50%;
+
+}

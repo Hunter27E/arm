@@ -23,6 +23,6 @@ function statusChangeCallback(response) {
 function changeUser(response) {
     console.log(response.name);
     //Add code to change name and image 
-    location.href = 'index';
+    location.href = 'tutorial1';
 }
   
