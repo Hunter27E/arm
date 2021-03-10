@@ -15,7 +15,7 @@ function setModel() {
 		if (x[i].name == 'gltf-model') {
 			x[i].value = modelSrc;
 		}
-		console.log(`${x[i].name} = ${x[i].value}`);
+		// console.log(`${x[i].name} = ${x[i].value}`);
 	}
 }
 
