@@ -26,7 +26,7 @@ var facts = {
 		Gift: 'France gifted the statue to the U.S in 1886.',
 		Shoes: 'Lady Liberty wears a size 879 shoe! Absolutely massive!',
 		Size:
-			'From the ground to the tip of the torch, the statue is 93 meters tall. It weighs 204 metric tons.',
+			'From the ground to the tip of the torch, the statue is 93 meters tall. It was the tallest structure ever when it was built. It weighs 204 metric tons.',
 		Waist: "Liberty's waistline is 35 feet. That's 420 inches!",
 		Stairs:
 			'To get to the crown of the statue, you must climb 354 stairs. Make sure to bring your water.',
@@ -37,6 +37,8 @@ var facts = {
 			'The interior of the statue is made of iron and the exterior is made of copper.',
 		Color:
 			'Liberty used to be copper color, however due to oxidation she is now green. This green coating protects the statue from deterioration.',
+		Cameo:
+			'The most famous movie Liberty has been in is the original Planet of the Apes movie from 1968 - it is buried in the sand.',
 	},
 };
 
@@ -66,10 +68,12 @@ function openModal() {
 }
 
 function loadListeners() {
+	// AR buttons to trigger info card content change
 	let ar_buttons = document.querySelectorAll('footer button');
 	ar_buttons.forEach((btn) => {
 		btn.addEventListener('click', switchFact, true);
 	});
+	// hamburger menu button
 	document.querySelector('nav i').addEventListener('click', openModal, true);
 }
 
