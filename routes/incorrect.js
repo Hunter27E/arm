@@ -7,12 +7,14 @@ exports.view = function (req, res) {
 	question_number = parseInt(query['id']);
 
 	var choice = req.query['chose'];
+	let model = req.query["model"];
 
 	// data to pass to template
 	let data = {};
 	data.incorrect = [];
 
-	data.question = quiz['questions'][question_number];
+	data.question = quiz[model]['questions'][question_number];
+	// data.question = quiz['questions'][question_number];
 
 	var obj = new Object();
 	obj.question = data.question.question;
