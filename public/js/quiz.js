@@ -22,8 +22,9 @@ function clickedIncorrectButton(e) {
     // console.log($(this).text());
     const questionID = getUrlVars();
 	const question_number = parseInt(questionID["id"]);
-    
-    location.href = "/incorrect?id=" + question_number + "&chose=" + $(this).text();
+    console.log(questionID);
+    const model = questionID["model"];
+    location.href = "/incorrect?id=" + question_number + "&chose=" + $(this).text() + "&model=" + model;
 }
 
 function clickedCorrectButton(e) {
@@ -31,7 +32,9 @@ function clickedCorrectButton(e) {
     e.preventDefault();
     const questionID = getUrlVars();
     const question_number = parseInt(questionID["id"]);
-    location.href = "/correct?id=" + question_number + "&chose=" + $(this).text();
+    console.log(questionID["model"])
+    const model = questionID["model"]
+    location.href = "/correct?id=" + question_number + "&chose=" + $(this).text() + "&model=" + model;
 }
 
 // Read a page's GET URL variables and return them as an associative array.

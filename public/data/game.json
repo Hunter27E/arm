@@ -1,85 +1,171 @@
 {
-    "exhibit": "giraffe",
-    "questions": [
-        {
-            "question": "How much do fully grown male giraffes weigh?",
-            "answers": [
-                {"answer": "1500 pounds", "is_correct": false},
-                {"answer": "3000 pounds", "is_correct": true},
-                {"answer": "750 pounds", "is_correct": false},
-                {"answer": "3750 pounds", "is_correct": false}
-            ],
-            "question-number": "1"
-        },
-        {
-            "question": "What is the fastest speed a giraffe can run?",
-            "answers": [
-                {"answer": "27 mph", "is_correct": false},
-                {"answer": "37 mph", "is_correct": true},
-                {"answer": "47 mph", "is_correct": false},
-                {"answer": "57 mph", "is_correct": false}
-            ],
-            "question-number": "2"
-        },
-        {
-            "question": "About how long do giraffes live?",
-            "answers": [
-                {"answer": "7 years", "is_correct": false},
-                {"answer": "16 years", "is_correct": false},
-                {"answer": "26 years", "is_correct": true},
-                {"answer": "23 years", "is_correct": false}
-            ],
-            "question-number": "3"
-        },
-        {
-            "question": "What is a baby giraffe called",
-            "answers": [
-                {"answer": "Calf", "is_correct": true},
-                {"answer": "Colt", "is_correct": false},
-                {"answer": "Foal", "is_correct": false},
-                {"answer": "Fawn", "is_correct": false}
-            ],
-            "question-number": "4"
-        },
-        {
-            "question": "How long are giraffes necks on average?",
-            "answers": [
-                {"answer": "4 feet", "is_correct": false},
-                {"answer": "6 feet", "is_correct": true},
-                {"answer": "8 feet", "is_correct": false},
-                {"answer": "10 feet", "is_correct": false}
-            ],
-            "question-number": "5"
-        },
-        {
-            "question": "Giraffe spots help regulate ____",
-            "answers": [
-                {"answer": "Body temperature", "is_correct": true},
-                {"answer": "appetite", "is_correct": false},
-                {"answer": "breathing", "is_correct": false},
-                {"answer": "brain cells", "is_correct": false}
-            ],
-            "question-number": "6"
-        },
-        {
-            "question": "Giraffes have this many hooves on each foot",
-            "answers": [
-                {"answer": "1", "is_correct": false},
-                {"answer": "2", "is_correct": true},
-                {"answer": "3", "is_correct": false},
-                {"answer": "4", "is_correct": false}
-            ],
-            "question-number": "7"
-        },
-        {
-            "question": "How long are giraffe tongues?",
-            "answers": [
-                {"answer": "10 inches", "is_correct": false},
-                {"answer": "12 inches", "is_correct": false},
-                {"answer": "16 inches", "is_correct": false},
-                {"answer": "20 inches", "is_correct": true}
-            ],
-            "question-number": "8"
-        }
-    ]
+    "giraffe": {
+        "questions": [
+            {
+                "question": "How much do fully grown male giraffes weigh?",
+                "answers": [
+                    {"answer": "1500 pounds", "is_correct": false},
+                    {"answer": "3000 pounds", "is_correct": true},
+                    {"answer": "750 pounds", "is_correct": false},
+                    {"answer": "3750 pounds", "is_correct": false}
+                ],
+                "question-number": "1"
+            },
+            {
+                "question": "What is the fastest speed a giraffe can run?",
+                "answers": [
+                    {"answer": "27 mph", "is_correct": false},
+                    {"answer": "37 mph", "is_correct": true},
+                    {"answer": "47 mph", "is_correct": false},
+                    {"answer": "57 mph", "is_correct": false}
+                ],
+                "question-number": "2"
+            },
+            {
+                "question": "About how long do giraffes live?",
+                "answers": [
+                    {"answer": "7 years", "is_correct": false},
+                    {"answer": "16 years", "is_correct": false},
+                    {"answer": "26 years", "is_correct": true},
+                    {"answer": "23 years", "is_correct": false}
+                ],
+                "question-number": "3"
+            },
+            {
+                "question": "What is a baby giraffe called",
+                "answers": [
+                    {"answer": "Calf", "is_correct": true},
+                    {"answer": "Colt", "is_correct": false},
+                    {"answer": "Foal", "is_correct": false},
+                    {"answer": "Fawn", "is_correct": false}
+                ],
+                "question-number": "4"
+            },
+            {
+                "question": "How long are giraffes necks on average?",
+                "answers": [
+                    {"answer": "4 feet", "is_correct": false},
+                    {"answer": "6 feet", "is_correct": true},
+                    {"answer": "8 feet", "is_correct": false},
+                    {"answer": "10 feet", "is_correct": false}
+                ],
+                "question-number": "5"
+            },
+            {
+                "question": "Giraffe spots help regulate ____",
+                "answers": [
+                    {"answer": "Body temperature", "is_correct": true},
+                    {"answer": "appetite", "is_correct": false},
+                    {"answer": "breathing", "is_correct": false},
+                    {"answer": "brain cells", "is_correct": false}
+                ],
+                "question-number": "6"
+            },
+            {
+                "question": "Giraffes have this many hooves on each foot",
+                "answers": [
+                    {"answer": "1", "is_correct": false},
+                    {"answer": "2", "is_correct": true},
+                    {"answer": "3", "is_correct": false},
+                    {"answer": "4", "is_correct": false}
+                ],
+                "question-number": "7"
+            },
+            {
+                "question": "How long are giraffe tongues?",
+                "answers": [
+                    {"answer": "10 inches", "is_correct": false},
+                    {"answer": "12 inches", "is_correct": false},
+                    {"answer": "16 inches", "is_correct": false},
+                    {"answer": "20 inches", "is_correct": true}
+                ],
+                "question-number": "8"
+            }
+        ]
+    },
+
+    "sol": {
+        "questions": [
+            {
+                "question": "solHow much do fully grown male giraffes weigh?",
+                "answers": [
+                    {"answer": "1500 pounds", "is_correct": false},
+                    {"answer": "3000 pounds", "is_correct": true},
+                    {"answer": "750 pounds", "is_correct": false},
+                    {"answer": "3750 pounds", "is_correct": false}
+                ],
+                "question-number": "1"
+            },
+            {
+                "question": "solWhat is the fastest speed a giraffe can run?",
+                "answers": [
+                    {"answer": "27 mph", "is_correct": false},
+                    {"answer": "37 mph", "is_correct": true},
+                    {"answer": "47 mph", "is_correct": false},
+                    {"answer": "57 mph", "is_correct": false}
+                ],
+                "question-number": "2"
+            },
+            {
+                "question": "solAbout how long do giraffes live?",
+                "answers": [
+                    {"answer": "7 years", "is_correct": false},
+                    {"answer": "16 years", "is_correct": false},
+                    {"answer": "26 years", "is_correct": true},
+                    {"answer": "23 years", "is_correct": false}
+                ],
+                "question-number": "3"
+            },
+            {
+                "question": "solWhat is a baby giraffe called",
+                "answers": [
+                    {"answer": "Calf", "is_correct": true},
+                    {"answer": "Colt", "is_correct": false},
+                    {"answer": "Foal", "is_correct": false},
+                    {"answer": "Fawn", "is_correct": false}
+                ],
+                "question-number": "4"
+            },
+            {
+                "question": "solHow long are giraffes necks on average?",
+                "answers": [
+                    {"answer": "4 feet", "is_correct": false},
+                    {"answer": "6 feet", "is_correct": true},
+                    {"answer": "8 feet", "is_correct": false},
+                    {"answer": "10 feet", "is_correct": false}
+                ],
+                "question-number": "5"
+            },
+            {
+                "question": "solGiraffe spots help regulate ____",
+                "answers": [
+                    {"answer": "Body temperature", "is_correct": true},
+                    {"answer": "appetite", "is_correct": false},
+                    {"answer": "breathing", "is_correct": false},
+                    {"answer": "brain cells", "is_correct": false}
+                ],
+                "question-number": "6"
+            },
+            {
+                "question": "solGiraffes have this many hooves on each foot",
+                "answers": [
+                    {"answer": "1", "is_correct": false},
+                    {"answer": "2", "is_correct": true},
+                    {"answer": "3", "is_correct": false},
+                    {"answer": "4", "is_correct": false}
+                ],
+                "question-number": "7"
+            },
+            {
+                "question": "solHow long are giraffe tongues?",
+                "answers": [
+                    {"answer": "10 inches", "is_correct": false},
+                    {"answer": "12 inches", "is_correct": false},
+                    {"answer": "16 inches", "is_correct": false},
+                    {"answer": "20 inches", "is_correct": true}
+                ],
+                "question-number": "8"
+            }
+        ]
+    }
 }

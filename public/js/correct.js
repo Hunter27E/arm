@@ -17,11 +17,13 @@ function clickedNext(e) {
 	const next_question_id = parseInt(getUrlVars()['id']) + 1;
 
 	// TODO: Hard coded number of questions to be 4, should be dynamic
+	var model = getUrlVars()["model"];
 	if (next_question_id > 7) {
-		location.href = '/complete';
+		location.href = '/complete'  + '?model=' + model;
 		//console.log("complete")
 	} else {
-		location.href = '/quiz?id=' + next_question_id;
+		
+		location.href = '/quiz?id=' + next_question_id + '&model=' + model;
 	}
 }
 
