@@ -9,6 +9,7 @@ exports.view = function (req, res) {
 
 	// data to pass to template
 	let data = {};
+	data.exhibit = model;
 
 	console.log(req.query);
 	data.question = quiz[model]['questions'][question_number];

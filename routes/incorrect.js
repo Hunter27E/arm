@@ -14,6 +14,7 @@ exports.view = function (req, res) {
 	data.incorrect = [];
 
 	data.question = quiz[model]['questions'][question_number];
+	data.exhibit = model;
 	// data.question = quiz['questions'][question_number];
 
 	var obj = new Object();
