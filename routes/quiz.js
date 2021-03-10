@@ -11,6 +11,7 @@ exports.view = function (req, res) {
 	let data = {};
 
 	data.question = quiz[model]['questions'][question_number];
+	data.exhibit = model;
 
 	data.layout = 'quiz';
 	console.log(data);
