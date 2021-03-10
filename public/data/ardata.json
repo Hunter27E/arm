@@ -40,6 +40,10 @@
 			{
 				"value": "Hooves",
 				"fact": "Giraffes have two hooves on each foot like antelopes and hippos."
+			},
+			{
+				"value": "Credit",
+				"fact": "Special thanks to..."
 			}
 		]
 	},
@@ -92,6 +96,10 @@
 			{
 				"value": "Cameo",
 				"fact": "The most famous movie Liberty has been in is the original Planet of the Apes movie from 1968 - it is buried in the sand."
+			},
+			{
+				"value": "Credit",
+				"fact": "Special thanks to..."
 			}
 		]
 	}

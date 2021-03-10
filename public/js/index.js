@@ -17,6 +17,7 @@ var facts = {
 		Ears:
 			'Giraffes do not make audible sounds that humans can hear, in fact they hardly use their hearing. They rely heavily on their vision.',
 		Hooves: 'Giraffes have two hooves on each foot like antelopes and hippos.',
+		Credit: 'Special thanks to...',
 	},
 	SOL: {
 		SOL:
@@ -39,6 +40,7 @@ var facts = {
 			'Liberty used to be copper color, however due to oxidation she is now green. This green coating protects the statue from deterioration.',
 		Cameo:
 			'The most famous movie Liberty has been in is the original Planet of the Apes movie from 1968 - it is buried in the sand.',
+		Credit: 'Special thanks to...',
 	},
 };
 
