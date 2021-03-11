@@ -40,6 +40,10 @@
 			{
 				"value": "Hooves",
 				"fact": "Giraffes have two hooves on each foot like antelopes and hippos."
+			},
+			{
+				"value": "Credit",
+				"fact": "Special thanks to..."
 			}
 		]
 	},
@@ -63,7 +67,7 @@
 			},
 			{
 				"value": "Size",
-				"fact": "From the ground to the tip of the torch, the statue is 93 meters tall. It weighs 204 metric tons."
+				"fact": "From the ground to the tip of the torch, the statue is 93 meters tall. It was the tallest structure ever when it was built. It weighs 204 metric tons."
 			},
 			{
 				"value": "Waist",
@@ -88,6 +92,14 @@
 			{
 				"value": "Color",
 				"fact": "Liberty used to be copper color, however due to oxidation she is now green. This green coating protects the statue from deterioration."
+			},
+			{
+				"value": "Cameo",
+				"fact": "The most famous movie Liberty has been in is the original Planet of the Apes movie from 1968 - it is buried in the sand."
+			},
+			{
+				"value": "Credit",
+				"fact": "Special thanks to..."
 			}
 		]
 	}
