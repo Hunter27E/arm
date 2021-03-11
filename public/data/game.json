@@ -87,82 +87,82 @@
     "sol": {
         "questions": [
             {
-                "question": "solHow much do fully grown male giraffes weigh?",
+                "question": "What is the actual name of the Statue of Liberty?",
                 "answers": [
-                    {"answer": "1500 pounds", "is_correct": false},
-                    {"answer": "3000 pounds", "is_correct": true},
-                    {"answer": "750 pounds", "is_correct": false},
-                    {"answer": "3750 pounds", "is_correct": false}
+                    {"answer": "Statue de la Liberté", "is_correct": false},
+                    {"answer": "Liberty Enlightening the World", "is_correct": true},
+                    {"answer": "Liberty Leading the People", "is_correct": false},
+                    {"answer": "Wanderer above the Sea of Fog", "is_correct": false}
                 ],
                 "question-number": "1"
             },
             {
-                "question": "solWhat is the fastest speed a giraffe can run?",
+                "question": "The Statue of Liberty was gifted to the U.S. by ____",
                 "answers": [
-                    {"answer": "27 mph", "is_correct": false},
-                    {"answer": "37 mph", "is_correct": true},
-                    {"answer": "47 mph", "is_correct": false},
-                    {"answer": "57 mph", "is_correct": false}
+                    {"answer": "Spain", "is_correct": false},
+                    {"answer": "France", "is_correct": true},
+                    {"answer": "Ireland", "is_correct": false},
+                    {"answer": "Greece", "is_correct": false}
                 ],
                 "question-number": "2"
             },
             {
-                "question": "solAbout how long do giraffes live?",
+                "question": "What material caused the Statue of Liberty to turn green?",
                 "answers": [
-                    {"answer": "7 years", "is_correct": false},
-                    {"answer": "16 years", "is_correct": false},
-                    {"answer": "26 years", "is_correct": true},
-                    {"answer": "23 years", "is_correct": false}
+                    {"answer": "Bronze", "is_correct": false},
+                    {"answer": "Iron", "is_correct": false},
+                    {"answer": "Copper", "is_correct": true},
+                    {"answer": "Gold", "is_correct": false}
                 ],
                 "question-number": "3"
             },
             {
-                "question": "solWhat is a baby giraffe called",
+                "question": "In what year was the Statue of Liberty gifted to the U.S.?",
                 "answers": [
-                    {"answer": "Calf", "is_correct": true},
-                    {"answer": "Colt", "is_correct": false},
-                    {"answer": "Foal", "is_correct": false},
-                    {"answer": "Fawn", "is_correct": false}
+                    {"answer": "1886", "is_correct": true},
+                    {"answer": "1776", "is_correct": false},
+                    {"answer": "1912", "is_correct": false},
+                    {"answer": "1777", "is_correct": false}
                 ],
                 "question-number": "4"
             },
             {
-                "question": "solHow long are giraffes necks on average?",
+                "question": "How long did it take to build the Statue of Liberty?",
                 "answers": [
-                    {"answer": "4 feet", "is_correct": false},
-                    {"answer": "6 feet", "is_correct": true},
-                    {"answer": "8 feet", "is_correct": false},
-                    {"answer": "10 feet", "is_correct": false}
+                    {"answer": "2 years", "is_correct": false},
+                    {"answer": "9 years", "is_correct": true},
+                    {"answer": "14 years", "is_correct": false},
+                    {"answer": "22 years", "is_correct": false}
                 ],
                 "question-number": "5"
             },
             {
-                "question": "solGiraffe spots help regulate ____",
+                "question": "Who was the Statue of Liberty designed by?",
                 "answers": [
-                    {"answer": "Body temperature", "is_correct": true},
-                    {"answer": "appetite", "is_correct": false},
-                    {"answer": "breathing", "is_correct": false},
-                    {"answer": "brain cells", "is_correct": false}
+                    {"answer": "Alexandre-Gustave Eiffel", "is_correct": true},
+                    {"answer": "Charles Garnier", "is_correct": false},
+                    {"answer": "Auguste Rodin", "is_correct": false},
+                    {"answer": "Antoine Bourdelle", "is_correct": false}
                 ],
                 "question-number": "6"
             },
             {
-                "question": "solGiraffes have this many hooves on each foot",
+                "question": "How many windows can you use to look out of the statue's crown?",
                 "answers": [
-                    {"answer": "1", "is_correct": false},
-                    {"answer": "2", "is_correct": true},
-                    {"answer": "3", "is_correct": false},
-                    {"answer": "4", "is_correct": false}
+                    {"answer": "5", "is_correct": false},
+                    {"answer": "25", "is_correct": true},
+                    {"answer": "15", "is_correct": false},
+                    {"answer": "20", "is_correct": false}
                 ],
                 "question-number": "7"
             },
             {
-                "question": "solHow long are giraffe tongues?",
+                "question": "About how many people visit the statue each year?",
                 "answers": [
-                    {"answer": "10 inches", "is_correct": false},
-                    {"answer": "12 inches", "is_correct": false},
-                    {"answer": "16 inches", "is_correct": false},
-                    {"answer": "20 inches", "is_correct": true}
+                    {"answer": "3.8 million", "is_correct": false},
+                    {"answer": "2.3 million", "is_correct": false},
+                    {"answer": "1.6 million", "is_correct": false},
+                    {"answer": "4.5 million", "is_correct": true}
                 ],
                 "question-number": "8"
             }
