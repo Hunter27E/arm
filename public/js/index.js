@@ -44,6 +44,10 @@ var facts = {
 	},
 };
 
+/**
+ * Changes fact and changes color of button to indicate it is active
+ * @param e - button that was clicked
+ */
 var switchFact = (e) => {
 	// get info box that will be changed
 	let info = document.getElementById('info');
@@ -53,6 +57,15 @@ var switchFact = (e) => {
 	// get the new fact
 	let newFact = facts[exhibit][part];
 	info.innerHTML = newFact;
+	// set all buttons to white and text to black
+	let btns = document.querySelectorAll('footer button');
+	btns.forEach((btn) => {
+		btn.style.backgroundColor = 'white';
+		btn.style.color = 'var(--primary)';
+	});
+	// set selected button to black and text to white
+	e.target.style.backgroundColor = 'var(--primary)';
+	e.target.style.color = 'white';
 };
 
 function closeModal() {
@@ -77,6 +90,10 @@ function loadListeners() {
 	});
 	// hamburger menu button
 	document.querySelector('nav i').addEventListener('click', openModal, true);
+	// set first button to active
+	let firstBtn = document.querySelector('footer button:first-child');
+	firstBtn.style.backgroundColor = 'var(--primary)';
+	firstBtn.style.color = 'white';
 }
 
 window.addEventListener('load', loadListeners, true);

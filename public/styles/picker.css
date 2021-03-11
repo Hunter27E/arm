@@ -1,0 +1,53 @@
+.giraffe-container{
+  height: 40vh;
+  width: 100%;
+}
+
+.giraffe-row{
+  height: 30vh;
+  width: 100%;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-fluid{
+  max-height: 25vh;
+  max-width: auto;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.statue-container{
+  height: 40vh;
+  width: 100%;
+}
+
+.statue-row{
+  height: 30vh;
+  width: 100%;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.fake-container{
+  height: 20vh;
+  width: 100%;
+}
+
+.fake-row{
+  height: 20vh;
+  width: 100%;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn{
+  width: 50%;
+  padding-right: 50%;
+  padding-left: 50%;
+
+}
