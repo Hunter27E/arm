@@ -17,12 +17,10 @@ body {
   max-height: 48vh;
 =======
   max-height: 44vh;
->>>>>>> 4498c0a61962684246b68ba6b4bde1b3338a4c1d
   display: block;
   margin-left: auto;
   margin-right: auto;
 
-=======
 * {
 	font-family: Barlow;
 }
@@ -79,19 +77,11 @@ body {
 	width: 100%;
 }
 
-<<<<<<< HEAD
 .description-row{
   width: 80%;
   height: 15vh;
   padding-top: 1vh;
   text-align: center;
-=======
-.description-row {
-	width: 80%;
-	height: 15vh;
-	padding-top: 1vh;
-	text-align: center;
->>>>>>> eb05e2887cc0a3f0e08afb578d57c6386787da45
 }
 
 /*Button to get started */
@@ -100,17 +90,10 @@ body {
 	width: 100%;
 }
 
-<<<<<<< HEAD
 .button-row{
   text-align: center;
-  width: 50%
+  width: 50%;
   height: 10vh;
-=======
-.button-row {
-	text-align: center;
-	width: 50%;
-	height: 10vh;
->>>>>>> eb05e2887cc0a3f0e08afb578d57c6386787da45
 }
 
 .btn {
