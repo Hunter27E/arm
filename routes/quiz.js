@@ -5,7 +5,7 @@ const quiz = require('../public/data/game.json');
 exports.view = function (req, res) {
 	var questionID = req.query;
 	question_number = parseInt(questionID['id']);
-	let model = questionID["model"];
+	let model = questionID['model'];
 
 	// data to pass to template
 	let data = {};
@@ -14,7 +14,7 @@ exports.view = function (req, res) {
 	data.exhibit = model;
 
 	data.layout = 'quiz';
-	console.log(data);
+	//console.log(data);
 
 	res.render('quiz', data);
 };
