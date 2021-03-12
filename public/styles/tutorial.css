@@ -1,97 +1,39 @@
 @import url('https://fonts.googleapis.com/css?family=Lobster|Barlow');
 
-* {
-	font-family: Barlow;
-}
-
-header a {
-	font-family: Lobster;
-}
-
-<<<<<<< HEAD
-.img-fluid{
-  max-width: auto;
-  max-height: 48vh;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+.mainbody{
+	height: 40vh;
+	width:100%;
 
 }
 
-=======
-html,
-body {
-	overflow-x: hidden;
+.subbody{
+	height: 20vh;
+	width:100%;
+	align-items: center;
+	align-content: center;
+	justify-content: center;
 }
-body {
-	position: relative;
+.subrow{
+	height: 20vh;
+	width:100%;
 }
->>>>>>> eb05e2887cc0a3f0e08afb578d57c6386787da45
+
+.subcol{
+	align-items: center;
+	align-content: center;
+	justify-content: center;
+	display: flex;
+	flex-direction: column;
+}
+
+.btn{
+	width: 70%;
+}
 
 .img-fluid {
 	max-width: auto;
-	max-height: 48vh;
+	max-height: 40vh;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-}
-
-.top-section {
-	width: 100%;
-	height: 50px;
-}
-
-.top-row {
-	width: 100%;
-	height: 50px;
-	text-align: center;
-}
-
-.mainbody {
-	width: 100%;
-	height: 350px;
-}
-
-<<<<<<< HEAD
-.mainrow{
-  width: 100%;
-  height: 350px;
-  text-align: center;
-  align-items: center;
-  align-content: center;
-  justify-content: center;
-=======
-.mainrow {
-	width: 100%;
-	height: 350px;
-	text-align: center;
-	align-items: center;
-	align-content: center;
-	justify-content: center;
->>>>>>> eb05e2887cc0a3f0e08afb578d57c6386787da45
-}
-
-.subbody {
-	height: 150px;
-	width: 100%;
-}
-
-.subrow {
-	align-items: center;
-	align-content: center;
-	justify-content: center;
-	width: 100%;
-	height: 150px;
-	text-align: center;
-}
-
-.subcol {
-	height: 50px;
-	width: 50%;
-}
-
-.btn {
-	width: 60%;
-	background-color: gray;
-	color: white !important;
 }
