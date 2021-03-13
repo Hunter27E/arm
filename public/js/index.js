@@ -17,7 +17,7 @@ var facts = {
 		Ears:
 			'Giraffes do not make audible sounds that humans can hear, in fact they hardly use their hearing. They rely heavily on their vision.',
 		Hooves: 'Giraffes have two hooves on each foot like antelopes and hippos.',
-		Credit: 'Special thanks to...',
+		Credit: 'Special thanks to BlueMesh from Sketchfab for the 3d model.',
 	},
 	SOL: {
 		SOL:
@@ -40,7 +40,7 @@ var facts = {
 			'Liberty used to be copper color, however due to oxidation she is now green. This green coating protects the statue from deterioration.',
 		Cameo:
 			'The most famous movie Liberty has been in is the original Planet of the Apes movie from 1968 - it is buried in the sand.',
-		Credit: 'Special thanks to...',
+		Credit: 'Special thanks to sssr1234 from Sketchfab for the 3d model',
 	},
 };
 
@@ -68,28 +68,13 @@ var switchFact = (e) => {
 	e.target.style.color = 'white';
 };
 
-function closeModal() {
-	document.getElementById('modal').style.display = 'none';
-	document
-		.querySelector('#options i')
-		.removeEventListener('click', closeModal, true);
-}
-
-function openModal() {
-	document.getElementById('modal').style.display = 'flex';
-	document
-		.querySelector('#options i')
-		.addEventListener('click', closeModal, true);
-}
-
 function loadListeners() {
 	// AR buttons to trigger info card content change
 	let ar_buttons = document.querySelectorAll('footer button');
 	ar_buttons.forEach((btn) => {
 		btn.addEventListener('click', switchFact, true);
 	});
-	// hamburger menu button
-	document.querySelector('nav i').addEventListener('click', openModal, true);
+
 	// set first button to active
 	let firstBtn = document.querySelector('footer button:first-child');
 	firstBtn.style.backgroundColor = 'var(--primary)';
