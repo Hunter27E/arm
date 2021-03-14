@@ -9,6 +9,8 @@
 
 # Links
 
+A8 hosting @ https://a8-armuseum.herokuapp.com
+
 A7 hosting @ https://a7-armuseum.herokuapp.com
 
 A6 hosting @ https://a6-armuseum.herokuapp.com
